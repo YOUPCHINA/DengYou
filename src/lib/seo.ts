@@ -14,12 +14,12 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://nuro.dev/${router.asPath}`,
+		canonical: `https://link.liyong.online/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
 			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			url: `https://link.liyong.online/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
