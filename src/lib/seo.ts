@@ -9,7 +9,7 @@ export function useSeoProps(
 	const router = useRouter();
 
 	const title = 'Li Yong';
-        const description = "Hello 😶 你好, I'm Li Yong";
+        const description = "Hello 😶 你好, I'm LiYong";
 
 	return {
 		title,
