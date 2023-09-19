@@ -18,7 +18,7 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://home.liyong.online',
+		href: 'https://what.liyong.online',
 		icon: <Icon className="mr-3" icon="feather:home" />,
 		text: 'Home',
 	},
