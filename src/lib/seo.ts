@@ -21,20 +21,8 @@ export function useSeoProps(
 			site_name: 'nuro',
 			url: `https://link.liyong.online/${router.asPath}`,
 			type: 'website',
-			images: [
-				{
-					url: 'https://s1.imagehub.cc/images/2023/09/19/banner.png',
-					alt: description,
-					width: 1280,
-					height: 720,
-				},
-			],
 		},
-		twitter: {
-			cardType: 'summary_large_image',
-			handle: '@nurodev',
-			site: '@nurodev',
-		},
+		// 删除twitter对象
 		...props,
 	};
 }
