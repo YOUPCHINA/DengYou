@@ -33,6 +33,18 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: '检测',
 			href: 'https://time.liyong.online',
 		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:tv',
+			text: 'Two',
+			href: 'https://like.liyong.online',
+		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:smile',
+			text: 'One',
+			href: 'https://one.liyong.online',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
