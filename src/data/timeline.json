@@ -3,7 +3,7 @@
 		"date": "08-01-2023",
 		"title": "第六个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:briefcase",
+		"icon": "feather:gift",
 		"link": {
 			"text": "一个页面",
 			"url": "https://love.liyong.online"
@@ -13,13 +13,13 @@
 		"date": "08-01-2023",
 		"title": "第五个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:award"
+		"icon": "feather:gift"
 	},
 	{
 		"date": "08-01-2023",
 		"title": "第四个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:briefcase",
+		"icon": "feather:gift",
 		"link": {
 			"text": "一个页面",
 			"url": "https://love.liyong.online"
@@ -29,7 +29,7 @@
 		"date": "08-01-2023",
 		"title": "第三个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:briefcase",
+		"icon": "feather:gift",
 		"link": {
 			"text": "一个页面",
 			"url": "https://love.liyong.online"
@@ -39,13 +39,13 @@
 		"date": "08-01-2023",
 		"title": "第二个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:award"
+		"icon": "feather:gift"
 	},
 	{
 		"date": "08-01-2023",
 		"title": "第一个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
-		"icon": "feather:briefcase",
+		"icon": "feather:gift",
 		"link": {
 			"text": "一个页面",
 			"url": "https://love.liyong.online"
@@ -55,7 +55,7 @@
 		"date": "08-01-2023",
 		"title": "Everyone needs a job",
 		"description": "Because no one works, we will return to primitive society",
-		"icon": "feather:briefcase",
+		"icon": "feather:gift",
 		"link": {
 			"text": "My resume",
 			"url": "https://flowcv.com/resume/ww2mhitt2c"
@@ -65,7 +65,7 @@
 		"date": "08-01-2023",
 		"title": "I will keep learning",
 		"description": "Time will keep changing, but some things will never change",
-		"icon": "feather:book"
+		"icon": "feather:gift"
 	},
 	{
 		"date": "08-01-1996",
