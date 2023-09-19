@@ -18,20 +18,20 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: '/blog',
+		href: 'https://home.liyong.online',
 		icon: <Icon className="mr-3" icon="feather:edit-3" />,
-		text: 'Blog',
+		text: 'Home',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
+		href: 'https://liyong.online',
 		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: 'Projects',
+		text: '主页',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
+		href: 'https://github.com/NiceDayToYou',
 		icon: <Icon className="mr-3" icon="feather:github" />,
 		text: 'GitHub',
 	},
@@ -43,7 +43,7 @@ export default function HomePage(): JSX.Element {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a software engineer & games developer`;
+	const description = `昨天是段历史，明天是个谜团，而今天是天赐的礼物，要像珍惜礼物那样珍惜今天`;
 
 	return (
 		<Layout.Default>
