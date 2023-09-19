@@ -27,7 +27,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: '歌单',
 			href: 'https://music.liyong.online',
 		},
-
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
