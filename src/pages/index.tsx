@@ -19,7 +19,7 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		href: 'https://home.liyong.online',
-		icon: <Icon className="mr-3" icon="feather:edit-3" />,
+		icon: <Icon className="mr-3" icon="feather:home" />,
 		text: 'Home',
 	},
 	{
@@ -31,9 +31,9 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/NiceDayToYou',
-		icon: <Icon className="mr-3" icon="feather:github" />,
-		text: 'GitHub',
+		href: 'https://web.liyong.online',
+		icon: <Icon className="mr-3" icon="feather:star" />,
+		text: 'Write',
 	},
 ];
 
