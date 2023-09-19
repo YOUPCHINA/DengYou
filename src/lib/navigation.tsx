@@ -21,6 +21,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: '赞助',
 			href: 'https://nicedaytooyou.github.io/Button/1.html',
 		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:heart',
+			text: '歌单',
+			href: 'https://music.liyong.online',
+		},
+
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
