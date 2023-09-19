@@ -11,7 +11,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:home',
+			icon: 'feather:heart',
 			text: 'Home',
 			href: '/',
 		},
@@ -23,10 +23,17 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
-			icon: 'feather:heart',
+			icon: 'feather:headphones',
 			text: '歌单',
 			href: 'https://music.liyong.online',
 		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:circle',
+			text: '检测',
+			href: 'https://time.liyong.online',
+		},
+
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
