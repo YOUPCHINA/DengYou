@@ -17,12 +17,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:copy',
-			text: '连接',
-			href: '/projects',
-		},
-		{
-			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
 			text: '时间线',
 			href: '/timeline',
