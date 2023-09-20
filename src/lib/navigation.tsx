@@ -48,7 +48,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
                 {
 			type: NavigationItemType.LINK,
 			icon: 'feather:at-sign',
-			text: 'One',
+			text: 'Me',
 			href: 'https://series.liyong.online',
 		},
 		{
