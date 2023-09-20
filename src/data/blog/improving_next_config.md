@@ -1,177 +1,247 @@
 ---
-banner_alt: A random screenshot of screen showing a Webpack config
-banner: https://images.unsplash.com/photo-1593720213411-697ba0ac0162?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1712&q=80
-title_prefix: Upgrade
-title: Improving the Next.js config
-description: The Next.js config file feels underutilized. Here's how it could be better
-date: '2021-12-03'
+banner_alt: A photo of a forest overlooking the bright white sky in the background
+banner: https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
+title_prefix: Introducing
+title: 👋🏻 Hello World
+description: This site has been long overdue a re-design & fresh lick of paint, so here's how I did it.
+date: '2021-10-22'
 ---
 
-For the past few years I have been an avid lover of [Vue.js](https://vuejs.org/) and in the past year or so been using it in combination with [Vite](https://vitejs.dev/), an all new build tool that is just out of this world fast :zap:.
-However, spending more time working in the industry I have learned to fall back in love with [React](https://reactjs.org/) and more specifically [Next.js](https://nextjs.org/).
-
-However, since switching back to using Next.js after so many years, I have noticed a number of things that have made me want to go back to using Vue + Vite.
-
-As the title implies, this post is going to focus specifically on how to improve the [Next.js config](https://nextjs.org/docs/api-reference/next.config.js/introduction) by focusing on a handful of the top/best config options used in other build tools like [Vite](https://vitejs.dev/).
-
-### :wrench: More Options
+## :face_with_raised_eyebrow: What is this?
 
 ---
 
-In general I feel like there should be more options added to the config file. Looking at the [shared options in Vite](https://vitejs.dev/config/#root), here are just a few that would make a lot of sense to add:
+This is my new Website! Built from the ground up with a whole new tech stack that I selected based on what I have learn't & been using over the past few months / years.
 
--   [`build`](https://vitejs.dev/config/#build-target): Customize the build output
+So, with the amount of work that went into re-building my current website but with a whole new look & a whole bunch of new features & options, I thought now this would be a good change to show some of them off.
 
-    Offer more customization for the build configuration of your project. In the case of Next.js I feel a lot of existing build options could be moved here. EG: `swcMinify`, `webpack`, etc.
-
--   [`define`](https://vitejs.dev/config/#define): Define global constant replacements
-
-    As a good alternative to having to add `NEXT_PUBLIC_` environment variables all the time you can use this to define public constant variables.
-
--   [`logLevel`](https://vitejs.dev/config/#logLevel): Adjust console output verbosity
-
--   [`plugins`](https://vitejs.dev/config/#plugins): Array of plugins to use
-
-    Plugins are a big feature that I'm going to [dive into more later](#-plugins).
-
--   [`root`](https://vitejs.dev/config/#root): Project root directory
-
-    Re-learning Next.js over the past few months I have been researching a number of open source projects, many of which like to point to a custom root directory. Most commonly a `src/` directory.
-
--   [`server`](https://vitejs.dev/config/#server-host): Server options
-
-    Customize the server configuration with options like `cors`, `port`, etc.
-
-The majority of these options simply add project structure flexability & extensibility for more advanced users.
-
-### :exclamation: TypeScript
+## :question: Why
 
 ---
 
-Moving onto what is, to me at least, one of the most obvious features. TypeScript support.
+In short, it was long overdue. I usually try to update my personal portfolio website every year or so. I use it as an opportunity to experiment, try new tech, new ideas, etc. However, due to complications I kept delaying it, putting it off & just never doing it. However as of late I had a burst of motivation to get it done & launched. My previous portfolio site I deployed back in the beginning of 2019 & does look alright even today. However, it was built thick & fast using VuePress & mean't if I wanted to expand it & add new blog posts it was perfectly doable, but anything else would have taken a lot more work.
 
-I personally don't like using the [CommonJS syntax](https://flaviocopes.com/commonjs/) where possible. To the point that for most projects now when I want to write a simple Node script I quickly add [`tsup`](https://tsup.egoist.sh/) so I can use TypeScript & a number of other handy features.
-One scenario I particularly hate is when a library offers a object type definition & but you have to use the JSDoc `@type {import('...').TypeName}` syntax to use it.
+So, having been a few years since my last portfolio website launch I decided to work with a blank slate & see what I could make from scratch.
 
-For comparison: This, to me, is ugly:
+## :hammer: Tech Stack
+
+---
+
+The [project](https://github.com/nurodev/nuro.dev) built using the following tools & frameworks:
+
+-   :atom_symbol: [React](https://reactjs.org/) / [Preact](https://preactjs.com/) (For Production)
+-   :muscle: [Next.js](https://nextjs.org/)
+    -   :mag: [next-seo](https://github.com/garmeeh/next-seo)
+    -   :crescent_moon: [next-themes](https://github.com/pacocoursey/next-themes)
+-   :female-singer: [EmotionCSS](https://emotion.sh)
+-   :lipstick: [Twin.macro](https://github.com/ben-rogerson/twin.macro) (For [Tailwind CSS](https://tailwindcss.com/))
+-   :tokyo_tower: [Tailwind UI](https://tailwindui.com/)
+-   :feather: [Feather Icons](https://feathericons.com/)
+-   :file_cabinet: [Hookstate](https://hookstate.js.org/)
+-   :+1: [react-use](https://github.com/streamich/react-use)
+
+## :pinching_hand: Vite
+
+---
+
+I originally began planning, designing & building this ground up re-build at the beginning on 2021 but had to later shelf it for a while due to personal complications taking priority.
+
+When development first began I was planning on building the site using [Vite](https://vitejs.dev/) & [Vue 3](https://vuejs.org/) as at the time I was, and still do, love Vite & Vue.js. However, since then I have learned how to utilize other tools to make even better products faster. [Next.js](https://nextjs.org/) being the most obvious one. Vite's hot module reloading (HMR) is insanely fast! To this day I do still think it is faster than Next.js (Even with the experimental ESModules feature flag enabled), however I was willing to make that trade off for the other features it offer out of the box compared to Vite.
+
+I love Vite & Vue.js, but for this project, and potentially future ones, I have fallen in love with Next.js because of how much it offers.
+
+## :sparkles: Features
+
+---
+
+With this new ground up re-build comes a whole host of new features & improvements.
+
+### :atom_symbol: Preact
+
+---
+
+A small feature that I often forget I added but helps a lot with bundle size, is [Preact](https://preactjs.com/).
+
+In summary, my Next.js project is configured to replace [React](https://reactjs.org/) with Preact in production builds.
 
 ```js:next.config.js
-/**
- * @type {import('next').NextConfig}
- */
-module.exports = {
-	// ...
-}
+webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+        Object.assign(config.resolve.alias, {
+            'react': 'preact/compat',
+            'react-dom/test-utils': 'preact/test-utils',
+            'react-dom': 'preact/compat',
+        });
+    }
+
+    return config;
+},
 ```
 
-This however, looks much cleaner:
-
-```ts:next.config.ts
-import type { NextConfig } from "next"
-
-export default {
-	// ...
-} as NextConfig;
-```
-
-No, type safety isn't needed for a config file. But when writing it it can be very helpful to have tools, such as intellisense, to help prompt any issues with your setup or help save you from having to even look up the conig documentation.
-
-`next.config.ts` has been talked about for 3 years now & has still not been added. [This issue](https://github.com/vercel/next.js/issues/5318) has been tracking this request since first posted in 2018 and still to this day has people asking for it.
-
-I can very much understand if there are more pressing features, bugs, etc that need to be addressed. But [Next.js 12 has just been released](https://nextjs.org/blog/next-12), the Next.js core has been running on TypeScript since 2019 & Vercel has constantly preached how amazing TypeScript is to the point it works out of the box pretty much.
-And yet, the Next.js config still only allows a CommonJS JavaScript file.
-
-### :electric_plug: Plugins
+### :book: Blog
 
 ---
 
-One of the second features that I think would have the biggest & best impact on Next.js would be an all new plugins system.
+As you can tell by the fact you're currently reading this, I now have a blog! :tada:
 
-Currently Next.js does provide a plugin system of sorts but is, as far as I can tell, community made & managed by nesting functions that return an updated Next.js configuration object. Not so pretty.
+This means that I finally have a place to create lengthy articles that can go more in-depth on topics I care deeply about. Eveyrthing from technical write-ups on new technology I am experimenting with, to other personal posts on hobbies enjoy, such as mechanical keyboards.
 
-In an indeal world an all new plugins system could make it even easier to bootstap & customize a Next.js project with your favourite tools in a matter of minutes, not hours like it does today.
+<XButton href="/blog" icon="feather:external-link" label="Vist my Blog" />
 
-Imagine if you could add [TailwindCSS](https://tailwindcss.com/) to your Next.js project by just doing this:
-
-```bash:Terminal
-npm install --save-dev next-plugin-tailwindcss
-
-# Or with Yarn
-
-yarn add -D next-plugin-tailwindcss
-```
-
-```js:next.config.js
-/**
- * @type {import('next').NextConfig}
- */
-module.exports = {
-	plugins: [
-		require("next-plugin-tailwindcss")(),
-	]
-}
-```
-
-That's basically how Vite's plugin system works & how nice & easy it is to work with. It has a [`plugins`](https://vitejs.dev/config/#plugins) property that allows you to simply provide an array of plugin methods that you call with your desired options.
-
-This system has become so popular that there are a huge number of plugins to let you to almost anything and everything you could need. Here is a few examples of my favourites:
-
--   [`vite-plugin-icons`](https://www.npmjs.com/package/vite-plugin-icons): Access thousands of icons via [Iconify](https://iconify.design/).
--   [`vite-plugin-markdown`](https://www.npmjs.com/package/vite-plugin-markdown): Import markdown files content, frontmatter, etc.
--   [`vite-plugin-pwa`](https://www.npmjs.com/package/vite-plugin-pwa): Generate all assets needed to make your app PWA ready.
--   [`vite-plugin-windicss`](https://windicss.org/integrations/vite.html): Quickly add WindiCSS (TailwindCSS + some cool extras).
-
-### :sunglasses: Merged
+### :clipboard: Projects
 
 ---
 
-With all of those features all put together you end up with something that looks a little like this:
+My new [projects page](/projects) has been redesigns to utilize server-side rendering for a very unique purpose.
+The page will show a select number of projects that are publicly available on my GitHub repository. However, the way they are selected is very unique.
 
-```ts:next.config.ts
-import TailwindCSS from 'next-plugin-windicss';
+Every request made for the page (That isn't already cached) will return a newly server-side rendered page that is later hydrated on the client (As all SSR does).
+When performing the render, the server will go out and fetch all of my available GitHub repositories & then filter down all of them based on a number of filters.
+These include the following:
 
-import type { NextConfig } from "next";
+-   The repository isn't archived
+-   Contains the `portfolio` topic in the repository meta data
 
-export default {
-	build: {
-		swc: {
-			minify: true,
-		},
-		webpack: (config, { dev, isServer }) => {
-			// ...
-		},
-	},
-	experimental: {
-		// ...
-	},
-	images: {
-		// ...
-	},
-	plugins: [
-		TailwindCSS(),
-	],
-	root: "./src/",
-	server: {
-		headers: [
-			// ...
-		],
-		port: 4000,
-	},
-} as NextConfig;
-```
+From there we then strip out the emoji suffix used in the repository description (This is a common practice I do to add a touch of color :rainbow:) so it can then be used as the project icon, with the description then being returned with that stripped out emoji.
+The rest of the data returned is pretty standard (Homepage URL, GitHub repository URL, etc).
 
-### :innocent: Simplicity
+With this I can update the contents of my projects page by using GitHub as a form of CMS. All I will need to do to add a project to my projects page page is add the `portfolio` tag to any of my repositories.
+
+![Screenshot of the projects page](/blog/hello_world/projects.png 'Screenshot of the projects page')
+
+<XButton href="/projects" icon="feather:external-link" label="Go to Projects" />
+
+### :clock1: Timeline
 
 ---
 
-One argument I could see for NOT to make all these big, possibly breaking, changes to the config system would be "But Next.js is so simple to use. This will just add complexity".
+When planning out my re-design I explored hundreds of portfolio websites. Some from big well known developers, to smaller less known devs. To very successfull designers, to students who have some really amazing looking sites so early on.
 
-Fair point. But if done correctly it could be backwards compatible with the current config system & then allows more experienced developers who do want to utilize some of the new features, such as plugins, TypeScript support, etc, can do so.
+To quickly name a few that helped me a lot:
 
-### :thinking_face: Conclusion
+-   [jmswrnr.com](https://jmswrnr.com)
+-   [leerob.io](https://leerob.io)
+-   [maximeheckel.com](https://maximeheckel.com)
+-   [phineas.io](https://phineas.io)
+-   [wojtek.im](https://wojtek.im)
+-   [www.joshwcomeau.com](https://www.joshwcomeau.com)
+-   [www.stuart.re](https://www.stuart.re)
+-   [www.twanmulder.com](https://www.twanmulder.com)
+
+That last one in particular I wanted to thank for this feature as I found it as a really nice way to track & record big events without having to do a blog post every time.
+With a bit of technical planning & building I was able to put together a simple JSON structure that would allow me to simply add a new object with simple data about the event to add it to my timeline page. Most of the heavy lifting of which is done by [Next.js's static site generation (SSG)](https://nextjs.org/blog/next-9-3#next-gen-static-site-generation-ssg-support).
+
+<XButton href="/timeline" icon="feather:external-link" label="Go to Timeline" />
+
+### :link: Referrals
 
 ---
 
-Of course all of this is just my opinion on how to improve the Next.js config system & how I think it should look, but others may have differing opinions / preferences, which I am very open to discussing.
+A lot of companies now days offer a referral system. Everyone from big companies like Amazon & Tesla (Sadly they just ended it), to smaller startups like [FreeTrade](https://freetrade.io/) & [Klima](https://klima.com/).
 
-For now though I feel like this needs to be something that should be discussed more in the community & looked into further as it could very much make Next.js even more powerful than it already is.
+With more & more companies offering referral rewards, what better place to share mine than on my personal website ¯\\\_(ツ)\_/¯
+
+This page is built almost identically to my [timeline](/timeline) page whereby a JSON structure is used to store the data that is then compiled at build time into a static page.
+
+![Screenshot of the referrals page](/blog/hello_world/referrals.png 'Screenshot of the referrals page')
+
+<XButton href="/referrals" icon="feather:external-link" label="Go to Referrals" />
+
+### :red_circle: Status
+
+---
+
+This next feature I am super happy with how it turned out & a HUGE credit has to go to [@phineyes](https://twitter.com/phineyes) for his work on building & hosting [Lanyard](https://github.com/Phineas/lanyard), a service to expose your Discord presence via a RESTful API or WebSocket.
+
+Using Lanyard I was able to build a live status widget & indicator component(s) that mean, as long as I am online on Discord, anyone is able to view what I am listening to on Spotify, what game I'm playing or even whatever I am coding thanks to a Visual Studio Code extension that adds rich presence to Discord.
+
+![Status Widget in action](/blog/hello_world/lanyard.gif 'Status Widget in action')
+
+<XButton href="/status" icon="feather:external-link" label="Go to Status" />
+
+### :crescent_moon: Theme
+
+---
+
+A very common feature now days is offering multiple themes for an application. My previous site iteration was no stranger to this as it would switch between light & dark themes based on the users system preference. This worked very well, until you wanted to manually override is. As such I have, again, added both light & dark modes as I did before, but this time offer a way to manually override this setting from your system setting.
+
+### :speaker: Sound
+
+---
+
+A fair few of the portfolio websites I looked at always had a nice touch of flair & one such touch I always found that I really liked was sound. Nothing crazy like playing music in background the whole time, but instead just subtle sound effects like button clicks, etc.
+
+It's a small addition, built using [`use-sound`](https://github.com/joshwcomeau/use-sound), that adds some depth & makes the site feel much more interactive.
+
+Currently the click sound is the only sound effect... For now. In the future I would like to experiment adding more sound effects to the site to continue expanding the feature. One such sound effect I have in mind I plan on looking into in the future is a envelope opening sound for when opening a blog post, or something similar? Not too sure yet but a nice idea I feel.
+
+### :wheelchair: Accessibility
+
+---
+
+The final fea... Well, kind of a feature but more of a much needed improvement has been accessibility.
+
+My previous website iteration met a lot of the minimum requirements for basic accessibility, however it could have been a lot better. Since the launch of that site I have learn't a LOT about the importance of accibility when designing & building websites / applications. As such I wanted to do my very best when building this one to improve it & make it as accessible as possible.
+
+Here are some of the notable accessibility features/improvements:
+
+#### Alt tags
+
+---
+
+Something small but very noticible is adding alt tags or `aria-label`'s where possible. This includes any & all images and buttons. This way screen readers are able to actually understand what the element is & read it back to the user.
+
+#### Focus Highlights
+
+---
+
+Primarily brought to my attention by the work of Discord via there [`focus-rings`](https://github.com/discord/focus-rings) package & [TailwindCSS](https://tailwindcss.com/) offering a new `ring` style system aimed at helping with focus visiblity & accessibility.
+
+![Focus ring](/blog/hello_world/focus.png 'Focus ring')
+
+#### Keyboard navigation
+
+---
+
+While not complete coverage, I aimed to offer complete or near complete keyboard navigation as it can aid with accesibility systems by ensuring that all items both can be navigated to at all, but also in the order you need.
+
+![Focus ring switching between buttons](/blog/hello_world/keyboard_nav.gif 'Focus ring switching between buttons')
+
+#### Reduced Motion
+
+---
+
+When implementing my very pretty & fancy looking particles background, I started to consider the performance & accessibility implications of offering such animations. As such I began researching into motion & animation accesbility in the web.
+
+From there I found out about the [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) CSS media query. By defualt when my site first loads, the initial state of the `animations` setting will default to whatever this query provides. If for whatever reason though this fails you are still always able to toggle off animations manually via the settings icon in the top right at all times.
+
+With this setting I am toggle not only the background aniamtion graphic off, but also toggle off the transitions that are wrapping several components on several pages.
+
+### Settings toggles
+
+---
+
+Following from the reduced motion toggle mention above, the settings dropdown, which is always located in the top right of the screen, also contains toggle buttons (Both displaying an icon to represent the icon as well as a checked icon to represent its current state) for toggling between light & dark theme, as well as to toggle sound effects.
+
+### Caveats
+
+---
+
+While I have tried to put in a good amount of time trying to add accessibility options & be as accomadating as possible, it is still not perfect.
+
+Here are some ways I still want to eventually improve the accessibilty even further:
+
+-   Reduced motion event listener updates settings `animations` state
+-   Improve animated background performance by using `GPGPU` from [`ogl`](https://oframe.github.io/ogl/examples/)
+-   Set theme back to using system theme instead of user override
+-   Many more to come
+
+I will always try to improve accessibility where possible. If you feel I am missing a key feature of accessibility, please reach out, let me know & educate me on its importance so I can try enforce its use in future & in other projects.
+
+## The Result
+
+---
+
+And with all of that, we have the final result of what you are looking at right now!
+
+![A screenshot of nuro.dev](/blog/hello_world/screenshot.png 'A screenshot of nuro.dev')
