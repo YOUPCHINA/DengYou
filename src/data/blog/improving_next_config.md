@@ -1,247 +1,55 @@
 ---
-banner_alt: A photo of a forest overlooking the bright white sky in the background
-banner: https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
-title_prefix: Introducing
-title: 👋🏻 Hello World
-description: This site has been long overdue a re-design & fresh lick of paint, so here's how I did it.
-date: '2021-10-22'
+banner_alt: nothing
+banner: https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+title: 第一个页面
+description: 暂时的记录
+date: '2023-09-20'
 ---
 
-## :face_with_raised_eyebrow: What is this?
+暂时记录一些信息，这是学习的过程，以下大部分内容由AI书写，我只修改了很少的一部分，主要目的是为了学习Markdown语法，别笑，说真的;我对Markdown一无所知.
 
----
-
-This is my new Website! Built from the ground up with a whole new tech stack that I selected based on what I have learn't & been using over the past few months / years.
-
-So, with the amount of work that went into re-building my current website but with a whole new look & a whole bunch of new features & options, I thought now this would be a good change to show some of them off.
-
-## :question: Why
+## :star: 语言：英语与汉语
 
 ---
 
-In short, it was long overdue. I usually try to update my personal portfolio website every year or so. I use it as an opportunity to experiment, try new tech, new ideas, etc. However, due to complications I kept delaying it, putting it off & just never doing it. However as of late I had a burst of motivation to get it done & launched. My previous portfolio site I deployed back in the beginning of 2019 & does look alright even today. However, it was built thick & fast using VuePress & mean't if I wanted to expand it & add new blog posts it was perfectly doable, but anything else would have taken a lot more work.
+语言是人类最重要的沟通工具之一，它不仅传递信息，还反映了不同文化和历史的独特性。英语和汉语是世界上最重要的两种语言之一，各自拥有独特的特点和影响力。
 
-So, having been a few years since my last portfolio website launch I decided to work with a blank slate & see what I could make from scratch.
+英语是全球通用的国际语言，被广泛使用于商业、科学、文化和政治领域。它有着丰富的词汇和语法结构，使其适用于各种表达需求。英语的历史源远流长，受到拉丁语、法语、德语等多种语言的影响。由于英国的殖民活动，英语传播到全球，成为国际贸易和外交的首选语言之一。
 
-## :hammer: Tech Stack
+相比之下，汉语是中国和其他华人社群的主要语言。它是一种象形文字，每个汉字都有自己的含义，汉字的组合形成单词和短语。汉语的语法结构简洁而灵活，但挑战在于汉字的书写和发音。尽管如此，汉语在世界上拥有庞大的使用人口，它不仅是中国的官方语言，还受到许多国际学生的学习和研究。
 
----
+虽然英语和汉语在结构和表达方式上存在差异，但它们都有着各自的美丽和价值。英语的多样性和国际性使其成为跨文化交流的桥梁，而汉语的深刻内涵和历史文化使其不可或缺。无论你选择学习哪一种语言，都能够打开全新的视野，丰富自己的思维方式，并促进与不同背景人群的互动。
 
-The [project](https://github.com/nurodev/nuro.dev) built using the following tools & frameworks:
+总之，英语和汉语代表了世界上两种不同但同样重要的语言。它们连接着不同的文化和人群，为人类交流创造了无限的机会。学习和尊重这两种语言，有助于促进跨文化理解和全球合作。
 
--   :atom_symbol: [React](https://reactjs.org/) / [Preact](https://preactjs.com/) (For Production)
--   :muscle: [Next.js](https://nextjs.org/)
-    -   :mag: [next-seo](https://github.com/garmeeh/next-seo)
-    -   :crescent_moon: [next-themes](https://github.com/pacocoursey/next-themes)
--   :female-singer: [EmotionCSS](https://emotion.sh)
--   :lipstick: [Twin.macro](https://github.com/ben-rogerson/twin.macro) (For [Tailwind CSS](https://tailwindcss.com/))
--   :tokyo_tower: [Tailwind UI](https://tailwindui.com/)
--   :feather: [Feather Icons](https://feathericons.com/)
--   :file_cabinet: [Hookstate](https://hookstate.js.org/)
--   :+1: [react-use](https://github.com/streamich/react-use)
+-   持之以恒的学习习惯： 学习英语需要时间和毅力。建立每日学习的习惯，保持一致性非常重要。可以设置每天固定的学习时间，使用学习应用程序、课程或教材来帮助自己跟踪学习进度。坚持不懈将会带来明显的进步。
+-   多样化的学习方法： 英语学习可以包括听、说、读、写四个方面。尝试不同的学习方法，如听英语音乐、观看英语电影、参加语言交换活动或阅读英语书籍。多样化的学习方法可以提高语言技能的全面性。
+-   积极参与交流： 语言是用来交流的工具，积极参与口语交流非常重要。寻找与英语为母语者交流的机会，可以通过语言交换伙伴、参加英语角、或在线社交平台来实现。勇敢地说英语，不怕犯错，这是提高口语能力的关键。
+-   词汇和语法的重视： 英语的词汇和语法是基础，需要不断地扩展词汇量并理解语法规则。使用词汇卡片、语法练习和写作作业来提高这些方面的技能。阅读英语文章和书籍也有助于提高词汇和语法水平。
 
-## :pinching_hand: Vite
+最重要的是，学习英语需要耐心和坚持。不要害怕犯错误，因为犯错误是学习的一部分。同时，设定明确的学习目标，定期检查自己的进展，可以保持动力和方向。最终，对于学习英语的过程要充满信心，相信自己能够取得进步，因为学好英语将为您打开更广阔的机会和世界。
 
----
+所有内容来自AI，不代表我个人观点
 
-I originally began planning, designing & building this ground up re-build at the beginning on 2021 but had to later shelf it for a while due to personal complications taking priority.
+**学好英语的同时，写好汉字同样重要 :heart:**
 
-When development first began I was planning on building the site using [Vite](https://vitejs.dev/) & [Vue 3](https://vuejs.org/) as at the time I was, and still do, love Vite & Vue.js. However, since then I have learned how to utilize other tools to make even better products faster. [Next.js](https://nextjs.org/) being the most obvious one. Vite's hot module reloading (HMR) is insanely fast! To this day I do still think it is faster than Next.js (Even with the experimental ESModules feature flag enabled), however I was willing to make that trade off for the other features it offer out of the box compared to Vite.
+[![pPIeluj.png](https://z1.ax1x.com/2023/09/20/pPIeluj.png)](https://imgse.com/i/pPIeluj)
 
-I love Vite & Vue.js, but for this project, and potentially future ones, I have fallen in love with Next.js because of how much it offers.
-
-## :sparkles: Features
+## :dart: 其它内容
 
 ---
 
-With this new ground up re-build comes a whole host of new features & improvements.
+-   This is my twitter, yes, it is called X now, okay, this is my X, [Li Yong](https://twitter.com/NiceDayTooYou) & The remaining one is one of the tools I use to learn English [Pi](https://pi.ai/talk).
+I will gradually improve and modify these contents in the future.
+-   Try & learn a new language while the [Duolingo](https://www.duolingo.com/) bird watches me in my sleep
 
-### :atom_symbol: Preact
-
----
-
-A small feature that I often forget I added but helps a lot with bundle size, is [Preact](https://preactjs.com/).
-
-In summary, my Next.js project is configured to replace [React](https://reactjs.org/) with Preact in production builds.
-
-```js:next.config.js
-webpack: (config, { dev, isServer }) => {
-    if (!dev && !isServer) {
-        Object.assign(config.resolve.alias, {
-            'react': 'preact/compat',
-            'react-dom/test-utils': 'preact/test-utils',
-            'react-dom': 'preact/compat',
-        });
-    }
-
-    return config;
-},
-```
-
-### :book: Blog
 
 ---
 
-As you can tell by the fact you're currently reading this, I now have a blog! :tada:
+关于人工智能的发展确实能够帮助我们很多.
 
-This means that I finally have a place to create lengthy articles that can go more in-depth on topics I care deeply about. Eveyrthing from technical write-ups on new technology I am experimenting with, to other personal posts on hobbies enjoy, such as mechanical keyboards.
+但是并没有太多的人简单高效的使用它，我自己也是还有很多需要学.
 
-<XButton href="/blog" icon="feather:external-link" label="Vist my Blog" />
+说实话，从古至今，从来没有哪个时期比现在的书籍更多的存在，所有的内容都联网了，书籍也是如此，很少有人花时间去看书，因为玩游戏或者别的更容易让人开心和放松，对我自己来说，我也不怎么喜欢看书，但是我会看一下我感兴趣的内容，每个人都有每个人的学习方法，我也需要借鉴别人的，我从来不觉得学习别人是一种抄袭或者什么什么.
 
-### :clipboard: Projects
-
----
-
-My new [projects page](/projects) has been redesigns to utilize server-side rendering for a very unique purpose.
-The page will show a select number of projects that are publicly available on my GitHub repository. However, the way they are selected is very unique.
-
-Every request made for the page (That isn't already cached) will return a newly server-side rendered page that is later hydrated on the client (As all SSR does).
-When performing the render, the server will go out and fetch all of my available GitHub repositories & then filter down all of them based on a number of filters.
-These include the following:
-
--   The repository isn't archived
--   Contains the `portfolio` topic in the repository meta data
-
-From there we then strip out the emoji suffix used in the repository description (This is a common practice I do to add a touch of color :rainbow:) so it can then be used as the project icon, with the description then being returned with that stripped out emoji.
-The rest of the data returned is pretty standard (Homepage URL, GitHub repository URL, etc).
-
-With this I can update the contents of my projects page by using GitHub as a form of CMS. All I will need to do to add a project to my projects page page is add the `portfolio` tag to any of my repositories.
-
-![Screenshot of the projects page](/blog/hello_world/projects.png 'Screenshot of the projects page')
-
-<XButton href="/projects" icon="feather:external-link" label="Go to Projects" />
-
-### :clock1: Timeline
-
----
-
-When planning out my re-design I explored hundreds of portfolio websites. Some from big well known developers, to smaller less known devs. To very successfull designers, to students who have some really amazing looking sites so early on.
-
-To quickly name a few that helped me a lot:
-
--   [jmswrnr.com](https://jmswrnr.com)
--   [leerob.io](https://leerob.io)
--   [maximeheckel.com](https://maximeheckel.com)
--   [phineas.io](https://phineas.io)
--   [wojtek.im](https://wojtek.im)
--   [www.joshwcomeau.com](https://www.joshwcomeau.com)
--   [www.stuart.re](https://www.stuart.re)
--   [www.twanmulder.com](https://www.twanmulder.com)
-
-That last one in particular I wanted to thank for this feature as I found it as a really nice way to track & record big events without having to do a blog post every time.
-With a bit of technical planning & building I was able to put together a simple JSON structure that would allow me to simply add a new object with simple data about the event to add it to my timeline page. Most of the heavy lifting of which is done by [Next.js's static site generation (SSG)](https://nextjs.org/blog/next-9-3#next-gen-static-site-generation-ssg-support).
-
-<XButton href="/timeline" icon="feather:external-link" label="Go to Timeline" />
-
-### :link: Referrals
-
----
-
-A lot of companies now days offer a referral system. Everyone from big companies like Amazon & Tesla (Sadly they just ended it), to smaller startups like [FreeTrade](https://freetrade.io/) & [Klima](https://klima.com/).
-
-With more & more companies offering referral rewards, what better place to share mine than on my personal website ¯\\\_(ツ)\_/¯
-
-This page is built almost identically to my [timeline](/timeline) page whereby a JSON structure is used to store the data that is then compiled at build time into a static page.
-
-![Screenshot of the referrals page](/blog/hello_world/referrals.png 'Screenshot of the referrals page')
-
-<XButton href="/referrals" icon="feather:external-link" label="Go to Referrals" />
-
-### :red_circle: Status
-
----
-
-This next feature I am super happy with how it turned out & a HUGE credit has to go to [@phineyes](https://twitter.com/phineyes) for his work on building & hosting [Lanyard](https://github.com/Phineas/lanyard), a service to expose your Discord presence via a RESTful API or WebSocket.
-
-Using Lanyard I was able to build a live status widget & indicator component(s) that mean, as long as I am online on Discord, anyone is able to view what I am listening to on Spotify, what game I'm playing or even whatever I am coding thanks to a Visual Studio Code extension that adds rich presence to Discord.
-
-![Status Widget in action](/blog/hello_world/lanyard.gif 'Status Widget in action')
-
-<XButton href="/status" icon="feather:external-link" label="Go to Status" />
-
-### :crescent_moon: Theme
-
----
-
-A very common feature now days is offering multiple themes for an application. My previous site iteration was no stranger to this as it would switch between light & dark themes based on the users system preference. This worked very well, until you wanted to manually override is. As such I have, again, added both light & dark modes as I did before, but this time offer a way to manually override this setting from your system setting.
-
-### :speaker: Sound
-
----
-
-A fair few of the portfolio websites I looked at always had a nice touch of flair & one such touch I always found that I really liked was sound. Nothing crazy like playing music in background the whole time, but instead just subtle sound effects like button clicks, etc.
-
-It's a small addition, built using [`use-sound`](https://github.com/joshwcomeau/use-sound), that adds some depth & makes the site feel much more interactive.
-
-Currently the click sound is the only sound effect... For now. In the future I would like to experiment adding more sound effects to the site to continue expanding the feature. One such sound effect I have in mind I plan on looking into in the future is a envelope opening sound for when opening a blog post, or something similar? Not too sure yet but a nice idea I feel.
-
-### :wheelchair: Accessibility
-
----
-
-The final fea... Well, kind of a feature but more of a much needed improvement has been accessibility.
-
-My previous website iteration met a lot of the minimum requirements for basic accessibility, however it could have been a lot better. Since the launch of that site I have learn't a LOT about the importance of accibility when designing & building websites / applications. As such I wanted to do my very best when building this one to improve it & make it as accessible as possible.
-
-Here are some of the notable accessibility features/improvements:
-
-#### Alt tags
-
----
-
-Something small but very noticible is adding alt tags or `aria-label`'s where possible. This includes any & all images and buttons. This way screen readers are able to actually understand what the element is & read it back to the user.
-
-#### Focus Highlights
-
----
-
-Primarily brought to my attention by the work of Discord via there [`focus-rings`](https://github.com/discord/focus-rings) package & [TailwindCSS](https://tailwindcss.com/) offering a new `ring` style system aimed at helping with focus visiblity & accessibility.
-
-![Focus ring](/blog/hello_world/focus.png 'Focus ring')
-
-#### Keyboard navigation
-
----
-
-While not complete coverage, I aimed to offer complete or near complete keyboard navigation as it can aid with accesibility systems by ensuring that all items both can be navigated to at all, but also in the order you need.
-
-![Focus ring switching between buttons](/blog/hello_world/keyboard_nav.gif 'Focus ring switching between buttons')
-
-#### Reduced Motion
-
----
-
-When implementing my very pretty & fancy looking particles background, I started to consider the performance & accessibility implications of offering such animations. As such I began researching into motion & animation accesbility in the web.
-
-From there I found out about the [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) CSS media query. By defualt when my site first loads, the initial state of the `animations` setting will default to whatever this query provides. If for whatever reason though this fails you are still always able to toggle off animations manually via the settings icon in the top right at all times.
-
-With this setting I am toggle not only the background aniamtion graphic off, but also toggle off the transitions that are wrapping several components on several pages.
-
-### Settings toggles
-
----
-
-Following from the reduced motion toggle mention above, the settings dropdown, which is always located in the top right of the screen, also contains toggle buttons (Both displaying an icon to represent the icon as well as a checked icon to represent its current state) for toggling between light & dark theme, as well as to toggle sound effects.
-
-### Caveats
-
----
-
-While I have tried to put in a good amount of time trying to add accessibility options & be as accomadating as possible, it is still not perfect.
-
-Here are some ways I still want to eventually improve the accessibilty even further:
-
--   Reduced motion event listener updates settings `animations` state
--   Improve animated background performance by using `GPGPU` from [`ogl`](https://oframe.github.io/ogl/examples/)
--   Set theme back to using system theme instead of user override
--   Many more to come
-
-I will always try to improve accessibility where possible. If you feel I am missing a key feature of accessibility, please reach out, let me know & educate me on its importance so I can try enforce its use in future & in other projects.
-
-## The Result
-
----
-
-And with all of that, we have the final result of what you are looking at right now!
-
-![A screenshot of nuro.dev](/blog/hello_world/screenshot.png 'A screenshot of nuro.dev')
+**see you later**:wave:
