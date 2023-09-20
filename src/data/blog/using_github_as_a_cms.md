@@ -1,6 +1,6 @@
 ---
 banner_alt: nothing
-banner: [https://s1.imagehub.cc/images/2023/09/20/wallhaven-9mrpqx.jpeg](https://unsplash.com/photos/eB1ziPSixlQ)
+banner: https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80
 title: 第一个页面
 description: 暂时的记录
 date: '2023-09-20'
