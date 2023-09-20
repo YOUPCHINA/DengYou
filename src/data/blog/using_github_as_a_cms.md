@@ -1,12 +1,12 @@
 ---
 banner_alt: nothing
-banner: https://s1.imagehub.cc/images/2023/09/20/wallhaven-9mrpqx.jpeg
+banner: [https://s1.imagehub.cc/images/2023/09/20/wallhaven-9mrpqx.jpeg](https://unsplash.com/photos/eB1ziPSixlQ)
 title: 第一个页面
 description: 暂时的记录
 date: '2023-09-20'
 ---
 
-暂时记录一些信息，这是学习的过程.
+暂时记录一些信息，这是学习的过程，以下大部分内容由AI书写，我只修改了很少的一部分，主要目的是为了学习Markdown语法，别笑，说真的;我对Markdown一无所知.
 
 ## :star: 语言：英语与汉语
 
@@ -35,7 +35,7 @@ date: '2023-09-20'
 
 [![pPIeluj.png](https://z1.ax1x.com/2023/09/20/pPIeluj.png)](https://imgse.com/i/pPIeluj)
 
-## :其它内容
+## :dart: 其它内容
 
 ---
 
