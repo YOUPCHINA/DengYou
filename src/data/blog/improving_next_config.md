@@ -1,8 +1,8 @@
 ---
 banner_alt: nothing
 banner: https://images.unsplash.com/photo-1602615576820-ea14cf3e476a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
-title: 第一个页面
-description: 暂时的记录
+title: 第三个页面
+description: 昨天是段历史，明天是个谜团，而今天是天赐的礼物，要像珍惜礼物那样珍惜今天.
 date: '2023-09-20'
 ---
 
