@@ -17,6 +17,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
+			icon: 'feather:edit-3',
+			text: '笔记',
+			href: '/blog',
+		},
+                {
+			type: NavigationItemType.LINK,
 			icon: 'feather:gift',
 			text: '赞助',
 			href: 'https://nicedaytooyou.github.io/Button/1.html',
