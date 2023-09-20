@@ -45,6 +45,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'One',
 			href: 'https://one.liyong.online',
 		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:at-sign',
+			text: 'One',
+			href: 'https://series.liyong.online',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
