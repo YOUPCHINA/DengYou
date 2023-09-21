@@ -31,7 +31,7 @@ date: '2023-09-20'
 
 所有内容来自AI，不代表我个人观点
 
-**学好英语的同时，写好汉字同样重要 :heart:**
+## :white_check_mark: 学好英语的同时，写好汉字同样重要
 
 [![pPIdFM9.png](https://z1.ax1x.com/2023/09/21/pPIdFM9.png)](https://imgse.com/i/pPIdFM9)
 
