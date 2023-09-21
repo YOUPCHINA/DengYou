@@ -31,7 +31,7 @@ date: '2023-09-20'
 
 所有内容来自AI，不代表我个人观点
 
-**学好英语的同时，写好汉字同样重要 :heart:**
+**学好英语的同时，写好汉字同样重要 :white_check_mark:
 
 [![pPIeluj.png](https://z1.ax1x.com/2023/09/20/pPIeluj.png)](https://imgse.com/i/pPIeluj)
 
@@ -53,3 +53,7 @@ I will gradually improve and modify these contents in the future.
 说实话，从古至今，从来没有哪个时期比现在的书籍更多的存在，所有的内容都联网了，书籍也是如此，很少有人花时间去看书，因为玩游戏或者别的更容易让人开心和放松，对我自己来说，我也不怎么喜欢看书，但是我会看一下我感兴趣的内容，每个人都有每个人的学习方法，我也需要借鉴别人的，我从来不觉得学习别人是一种抄袭或者什么什么.
 
 **see you later**:wave:
+
+---
+
+[![pPIq3OH.png](https://z1.ax1x.com/2023/09/21/pPIq3OH.png)](https://imgse.com/i/pPIq3OH)
