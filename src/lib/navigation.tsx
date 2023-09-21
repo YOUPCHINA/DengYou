@@ -41,6 +41,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
+			icon: 'feather:check-circle',
+			text: 'Code',
+			href: 'https://code.liyong.online',
+		},
+                {
+			type: NavigationItemType.LINK,
 			icon: 'feather:tv',
 			text: 'Two',
 			href: 'https://like.liyong.online',
