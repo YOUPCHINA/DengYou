@@ -31,11 +31,11 @@ date: '2023-09-20'
 
 所有内容来自AI，不代表我个人观点
 
-**学好英语的同时，写好汉字同样重要 :question:
+**学好英语的同时，写好汉字同样重要 :heart:**
 
 [![pPIaI58.png](https://z1.ax1x.com/2023/09/21/pPIaI58.png)](https://imgse.com/i/pPIaI58)
 
-## :dart: 其它内容 :heart:**
+## :dart: 其它内容 
 
 ---
 
