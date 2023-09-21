@@ -33,7 +33,7 @@ date: '2023-09-20'
 
 **学好英语的同时，写好汉字同样重要 :heart:**
 
-[![pPIeluj.png](https://z1.ax1x.com/2023/09/20/pPIeluj.png)](https://imgse.com/i/pPIeluj)
+[![pPIabvj.png](https://z1.ax1x.com/2023/09/21/pPIabvj.png)](https://imgse.com/i/pPIabvj)
 
 ## :dart: 其它内容
 
