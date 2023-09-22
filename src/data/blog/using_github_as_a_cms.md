@@ -52,4 +52,20 @@ I will gradually improve and modify these contents in the future.
 
 说实话，从古至今，从来没有哪个时期比现在的书籍更多的存在，所有的内容都联网了，书籍也是如此，很少有人花时间去看书，因为玩游戏或者别的更容易让人开心和放松，对我自己来说，我也不怎么喜欢看书，但是我会看一下我感兴趣的内容，每个人都有每个人的学习方法，我也需要借鉴别人的，我从来不觉得学习别人是一种抄袭或者什么什么.
 
+## :dart: 下图是我2017年在老家拍的照片
+
+![This is a photo](/blog/gallery/2017.jpg 'This is a photo')
+
+---
+
+虽然我喜欢摄影，但是我现在很少拍照，因为我对照片的清晰度不满意，觉得画质不好，所以我会考虑选择一个合适的设备
+
+## :dart: 赞助
+
+![This is a photo](/blog/picture/zfbzf.png 'This is a photo')
+
+![This is a photo](/blog/picture/wxzf.png 'This is a photo')
+
+至于为什么会弄这么多关于赞助的图，主要是因为目前没什么可以展示的图，还有一点就是为了测试一下图片是否正确加载...
+
 **see you later**:wave:
