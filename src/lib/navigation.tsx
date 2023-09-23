@@ -23,6 +23,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
+			icon: 'feather:wifi',
+			text: 'Discord',
+			href: 'https://discord.liyong.online',
+		},
+                {
+			type: NavigationItemType.LINK,
 			icon: 'feather:gift',
 			text: '赞助',
 			href: 'https://nice.liyong.online',
