@@ -41,9 +41,9 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
-			icon: 'feather:check-circle',
-			text: 'Code',
-			href: 'https://code.liyong.online',
+			icon: 'feather:at-sign',
+			text: 'Me',
+			href: 'https://series.liyong.online',
 		},
                 {
 			type: NavigationItemType.LINK,
@@ -59,9 +59,9 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
-			icon: 'feather:at-sign',
-			text: 'Me',
-			href: 'https://series.liyong.online',
+			icon: 'feather:check-circle',
+			text: 'Code',
+			href: 'https://code.liyong.online',
 		},
 		{
 			type: NavigationItemType.LINK,
