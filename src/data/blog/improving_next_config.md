@@ -52,4 +52,16 @@ I will gradually improve and modify these contents in the future.
 
 说实话，从古至今，从来没有哪个时期比现在的书籍更多的存在，所有的内容都联网了，书籍也是如此，很少有人花时间去看书，因为玩游戏或者别的更容易让人开心和放松，对我自己来说，我也不怎么喜欢看书，但是我会看一下我感兴趣的内容，每个人都有每个人的学习方法，我也需要借鉴别人的，我从来不觉得学习别人是一种抄袭或者什么什么.
 
+## :dart: 关于沙丘这部电影
+
+---
+
+我感觉所有电影都拍摄的并不完整，确实在短短几个小时想表达完整很难，沙丘这部电影的美感还是非常不错的
+
+[![pPTh9zj.jpg](https://z1.ax1x.com/2023/09/24/pPTh9zj.jpg)](https://imgse.com/i/pPTh9zj)
+
+[![pPThFLq.png](https://z1.ax1x.com/2023/09/24/pPThFLq.png)](https://imgse.com/i/pPThFLq)
+
+[![pPThAe0.jpg](https://z1.ax1x.com/2023/09/24/pPThAe0.jpg)](https://imgse.com/i/pPThAe0)
+
 **see you later**:wave:
