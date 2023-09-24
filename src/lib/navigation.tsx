@@ -23,12 +23,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
-			icon: 'feather:wifi',
-			text: 'Discord',
-			href: 'https://discord.liyong.online',
-		},
-                {
-			type: NavigationItemType.LINK,
 			icon: 'feather:gift',
 			text: '赞助',
 			href: 'https://nice.liyong.online',
@@ -74,6 +68,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			icon: 'feather:clock',
 			text: '时间线',
 			href: '/timeline',
+		},
+                {
+			type: NavigationItemType.LINK,
+			icon: 'feather:wifi',
+			text: 'Discord',
+			href: 'https://discord.liyong.online',
 		},
 	],
 	[
