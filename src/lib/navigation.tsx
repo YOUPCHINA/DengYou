@@ -33,6 +33,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: '歌单',
 			href: 'https://music.liyong.online',
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:target',
+			text: '音乐',
+			href: 'https://cloudmusic.liyong.online',
+		},
                 {
 			type: NavigationItemType.LINK,
 			icon: 'feather:circle',
