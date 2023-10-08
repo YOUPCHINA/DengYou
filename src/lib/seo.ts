@@ -8,18 +8,18 @@ export function useSeoProps(
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
 
-	const title = 'Li Yong';
-        const description = "Hello 😶 i's my name Li Yong";
+	const title = 'Deng You';
+        const description = "Hello 😶 i's my name Deng You";
 
 	return {
 		title,
 		description,
-		canonical: `https://link.liyong.online/${router.asPath}`,
+		canonical: `https://www.dengyou.online/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
 			site_name: 'nuro',
-			url: `https://link.liyong.online/${router.asPath}`,
+			url: `https://www.dengyou.online/${router.asPath}`,
 			type: 'website',
 		},
 		// 删除twitter对象
