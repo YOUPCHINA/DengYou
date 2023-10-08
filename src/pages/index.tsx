@@ -18,22 +18,22 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://two.liyong.online',
+		href: 'https://dengyou.online',
 		icon: <Icon className="mr-3" icon="feather:home" />,
 		text: 'Home',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://liyong.online',
+		href: 'https://music.dengyou.online',
 		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: '主页',
+		text: '歌单',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
 		href: 'https://web.liyong.online',
 		icon: <Icon className="mr-3" icon="feather:star" />,
-		text: 'Write',
+		text: '哔哩哔哩',
 	},
 ];
 
