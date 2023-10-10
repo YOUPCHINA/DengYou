@@ -31,9 +31,9 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://web.liyong.online',
+		href: 'https://link.dengyou.online',
 		icon: <Icon className="mr-3" icon="feather:star" />,
-		text: '哔哩哔哩',
+		text: '主页',
 	},
 ];
 
