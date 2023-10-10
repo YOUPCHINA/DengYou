@@ -43,16 +43,16 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/NiceDayTooYou',
+			icon: 'feather:instagram',
+			text: 'instagram',
+			href: 'https://instagram.com/dengyou37',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:star',
+			icon: 'feather:mail',
 			text: 'Connect',
-			href: 'https://kee.so/liyong',
+			href: 'mailto:dy033748@gmail.com',
 			external: true,
 		},
 	],
