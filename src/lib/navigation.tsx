@@ -23,12 +23,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
                 {
 			type: NavigationItemType.LINK,
-			icon: 'feather:gift',
-			text: '赞助',
-			href: 'https://nice.liyong.online',
-		},
-                {
-			type: NavigationItemType.LINK,
 			icon: 'feather:headphones',
 			text: '歌单',
 			href: 'https://music.dengyou.online',
