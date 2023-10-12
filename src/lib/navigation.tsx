@@ -45,15 +45,15 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:mail',
-			text: 'Connect',
+			text: 'email',
 			href: 'mailto:dy033748@gmail.com',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:music',
-			text: 'Connect',
-			href: 'https://music.163.com/371689356',
+			text: '网易云',
+			href: 'https://music.163.com/#/user/home?id=371689356',
 			external: true,
 		},
 	],
