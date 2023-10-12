@@ -49,6 +49,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'mailto:dy033748@gmail.com',
 			external: true,
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:music',
+			text: 'Connect',
+			href: 'https://music.163.com/371689356',
+			external: true,
+		},
 	],
 ];
 
