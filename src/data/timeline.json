@@ -6,7 +6,7 @@
 		"icon": "feather:star",
 		"link": {
 			"text": "一个页面",
-			"url": "https://love.liyong.online"
+			"url": "https://www.dengyou.online"
 		}
 	},
 	{
@@ -22,7 +22,7 @@
 		"icon": "feather:star",
 		"link": {
 			"text": "一个页面",
-			"url": "https://love.liyong.online"
+			"url": "https://www.dengyou.online"
 		}
 	},
 	{
@@ -32,7 +32,7 @@
 		"icon": "feather:star",
 		"link": {
 			"text": "一个页面",
-			"url": "https://love.liyong.online"
+			"url": "https://www.dengyou.online"
 		}
 	},
 	{
@@ -56,6 +56,10 @@
 		"title": "Everyone needs a job",
 		"description": "Because no one works, we will return to primitive society",
 		"icon": "feather:star",
+		"link": {
+			"text": "一个页面",
+			"url": "https://www.dengyou.online"
+		}
 	},
 	{
 		"date": "08-01-2023",
@@ -66,7 +70,7 @@
 	{
 		"date": "04-08-2003",
 		"title": "Birthday!",
-		"description": "I was born the 8th of April 1996",
+		"description": "I was born the 8th of April 2003",
 		"icon": "feather:gift"
 	}
 ]
