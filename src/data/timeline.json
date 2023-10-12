@@ -4,6 +4,10 @@
 		"title": "第六个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
 		"icon": "feather:star",
+		"link": {
+			"text": "一个页面",
+			"url": "https://love.liyong.online"
+		}
 	},
 	{
 		"date": "08-01-2023",
@@ -16,12 +20,20 @@
 		"title": "第四个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
 		"icon": "feather:star",
+		"link": {
+			"text": "一个页面",
+			"url": "https://love.liyong.online"
+		}
 	},
 	{
 		"date": "08-01-2023",
 		"title": "第三个问题",
 		"description": "你知道Lo-Fi是什么吗，我不建议你去搜索答案",
 		"icon": "feather:star",
+		"link": {
+			"text": "一个页面",
+			"url": "https://love.liyong.online"
+		}
 	},
 	{
 		"date": "08-01-2023",
@@ -36,7 +48,7 @@
 		"icon": "feather:star",
 		"link": {
 			"text": "一个页面",
-			"url": "https://www.dengyou.online"
+			"url": "https://love.liyong.online"
 		}
 	},
 	{
@@ -44,6 +56,10 @@
 		"title": "Everyone needs a job",
 		"description": "Because no one works, we will return to primitive society",
 		"icon": "feather:star",
+		"link": {
+			"text": "My resume",
+			"url": "https://flowcv.com/resume/ww2mhitt2c"
+		}
 	},
 	{
 		"date": "08-01-2023",
@@ -52,9 +68,9 @@
 		"icon": "feather:star"
 	},
 	{
-		"date": "04-08-2003",
+		"date": "08-01-1996",
 		"title": "Birthday!",
-		"description": "I was born the 8th of April 2003",
+		"description": "I was born the 1th of August 1996",
 		"icon": "feather:gift"
 	}
 ]
